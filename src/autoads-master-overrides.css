@@ -1,0 +1,28 @@
+/* Ajustes visuais do editor de campanhas (Master e Gerente) — sem alterar a lógica das campanhas. */
+
+/* A segmentação fica junto dos campos de criação/edição da campanha. */
+main[data-section="campaign-editor"] form::before {
+  content: "Público segmentado AutoAds";
+  display: block;
+  grid-column: 1 / -1;
+  white-space: pre-line;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  background: color-mix(in oklch, var(--color-primary) 5%, var(--color-background));
+  padding: 0.85rem 1rem;
+  color: var(--color-foreground);
+  font-size: 0.78rem;
+  line-height: 1.35rem;
+}
+
+main[data-section="campaign-editor"] form::after {
+  content: "A segmentação é automática e será aplicada às campanhas. Não é necessário configurar o público manualmente.";
+  display: block;
+  grid-column: 1 / -1;
+  margin-top: -0.5rem;
+  color: var(--color-muted-foreground);
+  font-size: 0.72rem;
+  line-height: 1.15rem;
+}
