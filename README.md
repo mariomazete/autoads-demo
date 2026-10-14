@@ -18,7 +18,7 @@ There are three roles, and each one sees a different app:
 | --- | --- |
 | **Master** (group level) | Manages brands, stores and users. Builds the campaign library (vehicle, offer, photos, copy, validity dates). Sees results across all stores. |
 | **Manager** (store level) | Creates campaigns for their own store, sets budget defaults, follows each salesperson's readiness and ranking, and verifies reported sales. |
-| **Salesperson** | Connects their own Meta ad account, picks which ready-made campaign to publish, sets a budget and follows results. Registers sales that came from ads. |
+| **Salesperson** | Connects their own Meta ad account, picks which ready-made campaign to publish, decides how much of their own money to invest in it and follows results. Registers sales that came from ads. |
 
 The flow:
 
@@ -40,7 +40,7 @@ Master / Manager creates campaign  ──►  Salesperson picks it and publishes
 
 - **Leads go straight to the salesperson's WhatsApp; the platform does not store them.** Ads use Meta's Click-to-WhatsApp destination. This removes a form, removes friction for the customer, and avoids keeping personal data the business doesn't need. The main success metric is *conversations started*, not clicks.
 - **Managers create, salespeople publish.** Salespeople shouldn't need to understand targeting or ad copy. They choose from a library of approved campaigns, so every ad follows the brand's standards.
-- **Each salesperson uses their own Meta ad account** (OAuth connection), so spending and results belong to them, while the manager still sees everything in one place.
+- **Each salesperson runs ads from their own Meta ad account and pays for them** (OAuth connection). They choose how much to invest in each campaign, so spending and results belong to them, while the manager still sees everything in one place.
 - **Audience decisions came from real results.** Ads target people who *live* within 10 km of the store, aged 35+. I turned off Meta's Advantage+ audience after it performed worse than the segmented audience, and went back to single-image ads after carousels underperformed.
 - **Editing an offer updates the existing Meta campaign** (new photos and copy, same audience) instead of creating a new one, so the campaign keeps its learning and history.
 - **Campaigns expire automatically.** A scheduled job pauses campaigns whose offer is no longer valid, so nobody keeps paying for an expired promotion.
