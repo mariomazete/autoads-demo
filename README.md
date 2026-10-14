@@ -1,8 +1,8 @@
 # AutoAds
 
-**A multi-tenant platform that lets car salespeople run their own Meta (Facebook/Instagram) ads, with campaigns prepared by their managers and leads going straight to their WhatsApp.**
+**A multi-tenant platform for car dealerships: managers create ready-to-run Meta (Facebook/Instagram) ad campaigns with the audience already targeted, and each salesperson just chooses which one to publish. Leads go straight to the salesperson's own WhatsApp.**
 
-I work as a car salesperson at a multi-brand dealership group. Salespeople know that ads bring customers, but most of them don't know how to set up a Meta campaign, and the ones who try end up with the wrong audience, the wrong budget and no way for the manager to see what's happening. I built AutoAds to fix that: managers prepare the campaigns once, and each salesperson publishes them from their own ad account in a couple of clicks.
+I work as a car salesperson at a multi-brand dealership group. Salespeople know that ads bring customers, but building a Meta campaign is not their job and most of them don't know how. The ones who try end up with the wrong audience, the wrong budget and no way for the manager to see what's happening. I built AutoAds so that salespeople never have to create an ad: the store manager or the group's master admin builds the campaign once, already targeted, and each salesperson picks the one they want to run and starts receiving customers on their WhatsApp.
 
 It runs in production with a pilot group of salespeople at the dealership.
 
